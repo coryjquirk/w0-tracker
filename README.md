@@ -13,7 +13,7 @@ Create custom workouts and visualize your progress.
   * Exercise name
   * Distance
   * Duration
- * Resistance input:
+* Resistance input:
   * Exercise name
   * Weight
   * Sets
