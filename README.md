@@ -1,3 +1,3 @@
 # w0-tracker
 
-https://coryjquirk.github.io/w0-tracker/
+https://w0-tracker.herokuapp.com/
