@@ -13,8 +13,8 @@ app.use(express.static('public'));
 app.use(logger("dev"));
 
 //routes
-app.use(require("./routes/api-routes"));
-app.use(require("./routes/html-routes"));
+require("./routes/api-routes");
+require("./routes/html-routes");
 
 //mongoose bp
 mongoose.connect(
@@ -26,7 +26,9 @@ mongoose.connect(
       useFindAndModify: false
     }
   );
-
+// routing
+require("./routes/api-routes")(app);
+require("./routes/html-routes")(app);
 //server listening?
 app.listen(PORT, () => {
     console.log(`App running at http://localhost:${PORT}!`);
