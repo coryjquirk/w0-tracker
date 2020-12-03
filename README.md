@@ -1,8 +1,8 @@
 # w0-tracker
 Create custom workouts and visualize your progress.
 
-## Deployed app: https://w0-tracker.herokuapp.com/
-* Github Repo: https://github.com/coryjquirk/w0-tracker/
+### Deployed app: https://w0-tracker.herokuapp.com/
+### Github Repo: https://github.com/coryjquirk/w0-tracker/
 ### Demo
 <img src="https://coryjquirk.github.io/w0-tracker/demo.gif" alt="demo gif">
 
